@@ -208,4 +208,64 @@ footer {
 footer p {
   margin: 0;
 }
+/* === Responsive Styles for Mobile === */
+@media (max-width: 768px) {
+  /* Adjust header height */
+  header.hero {
+    height: 50vh;
+    padding: 0 20px;
+  }
+
+  /* Stack nav items vertically */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text img {
+    max-width: 140px;
+  }
+
+  .intro h2,
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .intro p,
+  .content p,
+  .content ul {
+    font-size: 16px;
+  }
+
+  .contact-form-wrapper {
+    width: 90%;
+    padding: 20px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  form button {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
 
